@@ -4,8 +4,9 @@ import Image from 'next/image';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
+
 const name = 'Jari Kovalainen';
-export const siteTitle = 'Jarppa Website';
+export const siteTitle = 'Jarppa -24 Website';
 
 
 export default function Layout({ children, home }) {
@@ -65,6 +66,8 @@ export default function Layout({ children, home }) {
                     <Link href="/">← Back to home</Link>
                 </div>
             )}
+
         </div>
+
     );
 }
